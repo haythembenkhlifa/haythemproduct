@@ -14,8 +14,8 @@ use Laravel\Nova\Fields\Heading;
 use Laravel\Nova\Fields\JsonDate;
 use Illuminate\Support\Facades\Log;
 use R64\NovaFields\Text as GridText;
-use App\Products\TsfProductDefinition;
 use Laravel\Nova\Http\Requests\NovaRequest;
+use haythembenkhlifa\haythemproduct\TsfProductDefinition;
 
 class TestProduct extends TsfProductDefinition
 {
